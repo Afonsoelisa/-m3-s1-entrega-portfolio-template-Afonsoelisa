@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-weight: 800;
+  font-size: 3.6rem;
+  line-height: 44px;
+  margin: 5rem 0 2.5rem 0;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 30px;
+}
+
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .container div {
+    min-width: 200px;
+  }
+  .container div h2 {
+    margin: 0;
+  }
+}
